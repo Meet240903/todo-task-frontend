@@ -1,0 +1,106 @@
+.container{
+    overflow: hidden;
+}
+
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* Menu.css */
+
+/* General reset and body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header main container */
+  .header-main {
+    background-color: #343a40; /* Dark gray background */
+    color: #ffffff; /* White text color */
+    padding: 1rem 0; /* Vertical padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Inner container */
+  .header-main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Header content */
+  .header-content {
+    text-align: center;
+  }
+  
+  /* Header text */
+  .header-content h4 {
+    background-color: #007bff; /* Primary blue background */
+    color: #ffffff; /* White text */
+    padding: 0.5rem 1rem; /* Padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    margin: 0; /* Remove default margin */
+    display: inline-block; /* Inline block to center within flex container */
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .header-content h4 {
+      font-size: 1.25rem; /* Smaller font size on mobile */
+      padding: 0.25rem 0.5rem; /* Smaller padding on mobile */
+    }
+  }
+  
+.data-table th{
+    background-color: #2b3035;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.data-table td{
+    text-align: center;
+    padding: 10px;
+}
+
+.add-btn{
+    text-align: right;
+}
+
+.add-data-link{
+    text-decoration: none;
+}
+
+.detail-main{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.detail-inner{
+    padding: 10px;
+}
+
+.div-1{
+    padding: 10px;
+}
+.div-2{
+    padding: 10px;
+}
+
+.fa-edit-detail{
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.fa-trash-detail{
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
